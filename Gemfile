@@ -23,6 +23,7 @@ group :development do
   gem 'guard-rails'
   gem 'guard-rspec'
   gem 'guard-rubocop'
+  gem 'guard-brakeman'
   gem 'quiet_assets'
 end
 
