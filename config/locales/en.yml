@@ -1,4 +1,8 @@
 en:
+  # landing page jumbotron
   jumbotron_header: 'Welcome to Smart Workout'
   jumbotron_description: 'Keep track of your workout progress with ease.'
   get_started_now: 'Get started now!'
+
+  # navbar
+  toggle_navigation: 'Toggle navigation'
