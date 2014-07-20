@@ -1,0 +1,10 @@
+%nav.navbar.navbar-inverse.navbar-static-top.navbar-fixed-top
+  .container
+    .navbar-header
+      .navbar-toggle{ data: { target: "#navbar-collapse", toggle: "collapse" } }
+        %span.sr-only= t(:toggle_navigation)
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      = link_to 'Smart Workout', root_path, class: 'navbar-brand'
+    #navbar-collapse.collapse.navbar-collapse
