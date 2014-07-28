@@ -25,6 +25,8 @@ module SmartWorkout
     #   += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
+    config.serve_static_assets = true
+
     config.generators do |g|
       g.helper false
       g.jbuilder false
